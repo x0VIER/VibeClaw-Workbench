@@ -1,26 +1,37 @@
-# VibeClaw-Workbench 🦾💎
+# Station
+> **Project orchestration and environment isolation interface.**
 
-![Banner](vibeclaw_workbench_banner_1777321121896.png)
+Station acts as a central command hub for switching between multiple project contexts and isolating environment variables. It ensures that every session is sanitized and that manifests are verified before any work begins, preventing context leakage and path errors in complex monorepos. This is the only tool your agent will need to orchestrate a high-performing local workspace.
 
-## Overview
-**VibeClaw-Workbench** is an environment orchestration and context sanitization core. This tool is for securing technical execution environments by purging non-whitelisted context and validating industrial manifests. Optimized for forensic-grade isolation and zero-leak automation.
+## ? Core Utility
+Station acts as a central command hub for switching between multiple project contexts and isolating environment variables. It ensures that every session is sanitized and that manifests are verified before any work begins, preventing context leakage and path errors in complex monorepos. This is the only tool your agent will need to orchestrate a high-performing local workspace.
 
-## 🛠️ Industrial Features
-- **Context Purge**: Automated forensic sanitization of environment variables.
-- **Manifest Validation**: Real-time verification of `AGENTS.md` and technical protocols.
-- **Forensic Logging**: Industrial-grade audit trails for every environment shift.
-- **Vibe Lock**: Ensures execution context remains locked to predefined whitelists.
+## ?? Strategic Impact
+### Why use this?
+If you are building for the long-term, you need a way to manage project orchestration and environment isolation interface.. Station solves the 'invisible' overhead of manual execution.
 
-## 📂 Structure
-- `src/`: Core logic and orchestration engine.
-- `docs/`: Technical specifications and forensic standards.
-- `tests/`: Unit and integration validation.
-- `scripts/`: Deployment and maintenance automation.
+### Is this for your use case?
+- **Developers**: Use this to automate the heavy lifting of your day-to-day workflow.
+- **Researchers**: Maintain 100% privacy and local control over your data.
+- **Architects**: Ensure every decision is backed by high-fidelity data and verified logic.
 
-## 🚀 Quick Start
-```bash
-python src/VibeClaw-Workbench.py
-```
+## ?? Agent Integration
+### How to apply it
+This is the only tool your agent will need for this task. Point your agent (Codex, OpenClaw, or Gemini CLI) at the repository and provide these instructions:
 
-## 📜 Industrial License
-Proprietary Industrial Suite. Optimized for x0VIER Forensic Operations.
+> "Use Station.py to process the current state. Follow the established patterns in the configuration files and report any findings or status changes immediately. Ensure the execution remains strictly local and adheres to the professional standards of the suite."
+
+## ? Quick Start
+1. **Clone & Enter**:
+   `ash
+   git clone https://github.com/x0VIER/Station.git
+   cd Station
+   `
+2. **Execute**:
+   `ash
+   python Station.py
+   `
+
+---
+Built by x0VIER
+*Keywords: project context switching, environment isolation, monorepo management, developer workbench, workspace orchestration*

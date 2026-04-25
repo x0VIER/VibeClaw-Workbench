@@ -1,0 +1,4 @@
+python-dotenv
+jsonschema
+pathlib
+colorama
